@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../utils/strings.dart';
 import '../assignment_screen/persentation/assignment.dart';
 
 class CustomBottomNavBar extends StatefulWidget {
@@ -21,11 +22,11 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
   ];
 
   final List<String> labels = [
-    "Home",
-    "Cash Flow",
-    "Analytics",
-    "Progress",
-    "Material",
+    Strings.home,
+    Strings.cashFlow,
+    Strings.analytics,
+    Strings.progress,
+    Strings.material
   ];
 
   final List<Widget> screens = [

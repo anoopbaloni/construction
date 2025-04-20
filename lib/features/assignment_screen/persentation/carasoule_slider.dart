@@ -72,7 +72,7 @@ class _AnimatedImageCarouselState extends State<AnimatedImageCarousel> {
               ),
             ),
             const SizedBox(height: 8),
-            // Project name
+
             Text(
               controller.imageNames[controller.currentPage],
               style: const TextStyle(
@@ -81,7 +81,7 @@ class _AnimatedImageCarouselState extends State<AnimatedImageCarousel> {
               ),
             ),
             const SizedBox(height: 8),
-            // Dot indicators
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: List.generate(

@@ -9,6 +9,11 @@ class Strings {
   static String mReconciliation = 'M Reconciliation';
   static String materialReceipt = 'Material Receipt';
   static String goToDashboard = 'Go to Dashboard';
+  static String home = 'Home';
+  static String cashFlow = 'Cash Flow';
+  static String analytics = 'Analytics';
+  static String progress = 'Progress';
+  static String material = 'Material';
 
 
 }
